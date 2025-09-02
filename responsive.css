@@ -1,0 +1,98 @@
+body ,html{
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+.main{
+    height:100vh;
+    width:100%;
+    border:2px solid black;
+    background-color: #ffffff;
+
+}
+.main1{
+    height:100px;
+    width:100%;
+    /* border:2px solid black; */
+}
+.header{
+    height:70%;
+    width:100%;
+    border:2px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ .logo{
+    height:100%;
+    width:10%;
+    /* border:2px solid black; */
+    /* background-image: url(./fashion.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    overflow:hidden
+}
+.logo img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.name{
+    height:100%;
+    width:10%;
+    /* border:2px solid black; */
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color:black;
+    /* font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.menu{
+    height:100%;
+    width:10%;
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.navi{
+    height:30%;
+    width:100%;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:50px;
+}
+
+.home{
+    height: 100%;
+    width:5%;
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media all and (max-width:430px) {
+    .navi{
+        display: none;
+    }
+    .logo{
+        min-width:15%;
+        font-size: 20px;
+    }
+    .name{
+        min-width:10%;
+        font-size: 20px;
+    }
+    
+}

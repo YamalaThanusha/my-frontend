@@ -1,0 +1,110 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.main{
+    height:100vh;
+    width:100%;
+    border:2px solid black;
+    background-color: black;
+    display: flex;
+ 
+}
+.container1{
+    height:100vh;
+    width:400px;
+    border:2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container11{
+    height:50vh;
+    width:100%;
+    border:2px solid red;
+    background-color: red;
+}
+.container12{
+    height:50vh;
+    width:100%;
+    border:2px solid white;
+    background-color: white;
+}
+.container2{
+    height:100vh;
+    width:100%;
+    border:2px solid black;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.container21{
+    height:200px;
+    width:100%;
+    border:2px solid black;
+    display: flex;
+}
+.container211{
+    height:100%;
+    width:50%;
+    border:2px solid rgb(83, 130, 173);
+    background-color:rgb(83, 130, 173) ;
+}
+.container212{
+    height:100%;
+    width:50%;
+    border:2px solid #bcbc58;
+    background-color:#bcbc58 ;
+}
+.container22{
+    width:100%;
+    height:100%;
+    border: 2px solid black;
+    display:flex;
+
+}
+.container221{
+    width:900px;
+    height: 100%;
+    border:2px solid blue;
+    background-color: blue;
+}
+.container2211{
+    width:100%;
+    height: 50%;
+    border: 2px solid black;
+    background-color: white;
+}
+.container22111{
+    width:30%;
+    height:100%;
+    background-color: #bcbc58;
+}
+.container22112{
+    width:70%;
+    height:100%;
+    background-color: white;
+}
+.container2212{
+    width:100%;
+    height:50%;
+    border: 2px solid black;
+    background-color: blue;
+    display:flex;
+}
+.container22121{
+    height:100%;
+    width:70%;
+    background-color: red;
+}
+.container22122{
+    height:100%;
+    width:30%;
+    background-color: blue;
+}
+.container222{
+    width:300px;
+    height: 100%;
+    border:2px solid red;
+    background-color: red;
+}

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>TODO</title>
+        <script src="./todo.js"></script>
+        <style>
+            body{
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container{
+                height:300px;
+                width:400px;
+                border:2px solid black;
+                display:flex;
+                align-items: center;
+                /* justify-content: center; */
+                flex-direction: column;
+            }
+            button{
+                margin:10px;
+            }
+        </style>
+    </head>
+    <body><div class="container">
+        <h1>TO DO LIST</h1>
+        <input type="text" id="textfield">
+        <button onclick="myfun()">OK</button>
+        <p id="para"></p>
+    </div>
+    </body>
+</html>

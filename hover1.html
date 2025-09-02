@@ -1,0 +1,25 @@
+<html>
+    <head><title>Mouse</title></head>
+    <style>
+        .hover{
+            height:200px;
+            width:200px;
+            border:2px solid black;
+            background-color: brown;
+
+        }
+        .hover:hover{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: blue;
+            border: 3px solid black;
+            
+        }
+    </style>
+    <body>
+        <!-- <div class=hover id="hover1" onmouseover="over()" onmouseleave="leave()">Radha and Anitha</div> -->
+        <div class=hover id="hover1" onmousedown="down()" onmouseup="up()">Radha and Anitha</div>
+    </body>
+    <script src="./javaScript/hover1.js"></script>
+</html>

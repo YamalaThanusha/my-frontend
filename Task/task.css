@@ -1,0 +1,19 @@
+.Container{
+    height:800px;
+    width:1000px;
+    border:2px solid black;
+    position: relative;
+
+
+}
+.Container img{
+height:200px;
+width:200px;
+border:2px solid black;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+
+

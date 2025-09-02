@@ -1,0 +1,144 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.main1{
+    height:150vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+.card1{
+    height:800px;
+    width:800px;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: card;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* border-radius: 50%; */
+}
+.card2{
+    height:600px;
+    width:600px;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: card;
+    animation-timing-function: linear;
+    /* border-radius: 50%; */
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.card3{
+    height:400px;
+    width:400px;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: card;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* border-radius: 50%; */
+}
+.card4{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: card;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* border-radius: 50%; */
+}
+.card5{
+    height:50px;
+    width:50px;
+    border: 2px solid black;
+    animation-name: card;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* border-radius: 50%; */
+}
+@keyframes card{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: blueviolet;
+    }
+}
+.main2{
+    height:100vh;
+    width:100%;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main21{
+    height:400px;
+    width:400px;
+    border:2px solid black;
+    animation-name: card;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-color: chartreuse;
+
+}
+@keyframes card{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+       
+    }
+}
+.child{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: ball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position:relative;
+}
+@keyframes ball{
+    0%{
+        top:0px;
+        left:0px;
+    }
+    25%{
+        top:0px;
+        left:200px;
+    }
+    50%{
+        top:200px;
+        left:200px;
+    }
+    75%{
+        top:200px;
+        left:0px;
+    }
+    100%{
+        top:0px;
+        left:0px;
+    }
+}

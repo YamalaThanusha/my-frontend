@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel="stylesheet" href="./task.css">
+</head>
+<body>
+  <div class="Container">
+    <img src="./heels4.jpeg" alt="heels">
+  </div>
+</body>
+</html> -->
+
+class Student { 
+// Properties with access specifiers public name: string; protected age: number; 
+private rollNo: string; 
+ 
+// Constructor 
+constructor(name: string, age: number, rollNo: string) { this.name = name; this.age = age; this.rollNo 
+= rollNo; 
+} 
+ 
+// Public Method public displayInfo(): void { console.log(`Name: ${this.name}`); console.log(`Age: ${this.age}`); console.log(`Roll No: ${this.rollNo}`); 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+// Private Method 
+private secretMessage(): string { return "This is private!"; 
+} 
+} 
+// Inherited class class GraduateStudent extends Student { constructor(name: string, age: 
+number, rollNo: string) { super(name, age, rollNo); 
+} 
+ 
+showAge(): void { console.log(`(Protected) Age: ${this.age}`); 
+} 
+} 
+ 
+// Creating object const student1 = new GraduateStudent("Sai Pradeep", 23, 
+"24M11MC183"); 
+student1.displayInfo(); student1.showAge(); 
+ 

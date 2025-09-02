@@ -1,0 +1,32 @@
+
+<html>
+  <head>
+    <title>Webpage</title>
+  </head>
+  <body>
+
+<script>
+
+let header = document.createElement("h1");
+ header.appendChild(document.createTextNode("Fruits"));
+let ordered = document.createElement("ol");
+let unordered = document.createElement("li");
+unordered.appendChild(document.createTextNode("Apple"));
+let unordered1 = document.createElement("li");
+unordered1.appendChild(document.createTextNode("banana"));
+let unordered2 = document.createElement("li");
+unordered2.appendChild(document.createTextNode("grapes"));
+let body = document.getElementsByTagName("body").item(0);
+// let division = document.createElement("div");
+// division.appendChild(document.createTextNode("soft bound"));
+// body.appendChild(division)
+body.appendChild(header);
+// body.appendChild(para);
+ordered.appendChild(unordered);
+ordered.appendChild(unordered1);
+ordered.appendChild(unordered2);
+body.appendChild(ordered); 
+</script>
+    
+</body>
+</html>

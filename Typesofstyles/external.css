@@ -1,0 +1,29 @@
+.hello{
+    color: rgb(139, 139, 186);
+    background-color: black;
+    text-align: center;
+    font-weight: 400;
+    margin: 30px 30px 30px 30px
+}
+.hai{
+    color: aqua;
+    border: 10px groove rgb(181, 49, 150);
+    border-radius:0px 0px 20px 20px;
+}
+body{
+    background-color: rgb(153, 153, 91);
+    border-style :dashed;
+    border-color: rgb(54, 123, 159);
+    border-width:5px;
+    border-radius: 5%;
+}
+p{
+        background-color:aqua;
+    height:200px;
+    width:200px;
+    border: 10px solid red;
+    padding: 10px;
+    border-radius:25%;
+    text-align: center;
+  
+}

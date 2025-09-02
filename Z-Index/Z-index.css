@@ -1,0 +1,65 @@
+.container1{
+    height:500px;  
+    width:350px;
+    border:3px solid chartreuse;
+    background-color: rgb(189, 218, 159);
+    position:absolute;
+    top:0px;  /*when top and left zero then it display first*/
+    left:0px;
+    z-index: 1;
+}
+.container1:hover{
+    height:550px;
+    width:400px;
+    z-index:4;
+}
+
+
+.container2{
+    height:500px;
+    width:350px;
+    border:3px solid crimson;
+    background-color: rgb(250, 142, 164);
+    position:absolute;
+    top:60px;
+    left:60px;
+    z-index: 1;
+}
+.container2:hover{
+    height:550px;
+    width:400px;
+    z-index:4;
+ 
+}
+
+.container3{
+    height:500px;
+    width:350px;
+    border:3px solid blueviolet;
+    background-color: rgb(186, 120, 248);
+    position:absolute;
+    top:120px;
+    left:120px;
+    z-index: 2;
+}
+.container3:hover{
+    height:550px;
+    width:400px;
+    z-index:4;
+}
+
+.container4{
+    height:500px;
+    width:350px;
+    border:3px solid yellow;
+    background-color: rgb(247, 247, 134);
+    position:absolute;
+   top:180px;  /*  when you apply  top and left zero that card will display first*/
+    left:180px;
+    z-index: 3;
+}
+.container4:hover{
+    height:600px;
+    width:450px;
+    z-index: 4;
+}

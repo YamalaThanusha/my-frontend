@@ -1,0 +1,61 @@
+.container{
+    height:500px;
+    width:500px;
+    background-color:grey;
+    border:2px solid black
+
+}
+
+
+
+
+
+h1{
+   text-align: center;
+    border:10px solid rebeccapurple;
+    /* height:50px;
+    width:210px; */
+    text-shadow: 3px 3px 3px;
+    color:rgb(17, 178, 124)
+}
+.first{
+    height:150px;
+    width:300px;
+    border:10px dashed aqua;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 600px;
+    background-color: grey;
+    color:aqua;
+    text-transform: lowercase;
+}
+.second{
+    text-decoration-style: solid;
+    text-decoration-color: rgb(158, 102, 102);
+    text-decoration-line: line-through;
+    font-size:30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px;
+
+}
+.third{
+    text-decoration-style:dotted;
+    text-decoration-color: blue;
+    text-decoration-line: overline;
+    font-size:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-transform:capitalize;
+    letter-spacing: 5px;
+    
+}
+.fourth{
+    text-decoration-style:dashed;
+    text-decoration-color:chartreuse;
+    text-decoration-line: underline;
+    font-size:30px;
+    margin:5px 0px 5px 2px;
+    line-height:40px;
+
+}

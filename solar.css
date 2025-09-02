@@ -1,0 +1,198 @@
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main{
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.earth-outline{
+    height: 600px;
+    width:600px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:relative;
+    animation-name: circle;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.earth{
+    height:40px;
+    width:40px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:absolute;
+    top:60px;
+    left:60px;
+    background-color: brown;/*jupiter*/
+    background-image: url(./jupiter.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.mars-outline{
+    height: 500px;
+    width:500px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:relative;
+    animation-name: circle;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.mars{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:absolute;
+    top:45px;
+    left:45px;
+    background-color: gray; /*mars*/
+    background-image: url(./mars.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+ 
+.venus-outline{
+    height: 400px;
+    width:400px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:relative;
+    animation-name: circle;
+    animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.venus{
+    height:30px;
+    width:30px;
+    border:2px solid black;
+    border-radius: 50%;     
+    position:absolute;
+    top:45px;
+    left:45px;
+    background-color: red; /*earth*/
+    background-image: url(./earth.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.mercury-outline{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:relative;
+    animation-name: circle;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.mercury{
+    height:45px;
+    width:45px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:absolute;
+    top:25px;
+    left:25px;
+    background-color: blue; /*venus*/
+    background-image: url(./venus.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jupiter-outline{
+    height: 200px;
+    width:200px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:relative;
+    animation-name: circle;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.jupiter{
+    height:20px;
+    width:20px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:absolute;
+    top:20px;
+    left:20px;
+    background-color: aqua; /*mercury*/
+    background-image: url(./mercury.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pluto-outline{
+    height: 700px;
+    width:700px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:relative;
+    animation-name: circle;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.pluto{
+    height:25px;
+    width:25px;
+    border:2px solid black;
+    border-radius: 50%;
+    position:absolute;
+    top:90px;
+    left:90px;
+    background-color: yellow; /*saturn*/
+    background-image: url(./pluto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sun{
+    height:100px;
+    width:100px;
+    border:2px solid #ffa366;
+    border-radius:50%;
+    background:radial-gradient(#ff6600, #ff751a, #ff8533,#ff944d);
+    box-shadow: -10px 10px 60px #ffa366;
+    
+}
+
+@keyframes circle{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

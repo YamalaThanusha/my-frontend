@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+}
+.main{
+    height:400px;
+    width:200px;
+    border:2px solid chartreuse;
+    padding:20px;
+    overflow: visible;
+
+}
+.main1{
+    height:400px;
+    width:200px;
+    border:2px solid crimson;
+    padding:20px;
+    overflow:auto;
+
+
+}
+.main2{
+    height:400px;
+    width:200px;
+    border:2px solid chocolate;
+    padding:20px;
+    overflow:scroll; 
+
+}
+.main3{
+    height:400px;
+    width:200px;
+    border:2px solid chocolate;
+    padding:20px;
+    overflow:hidden;
+
+}

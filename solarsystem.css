@@ -1,0 +1,116 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.sun{
+    height:120px;
+    width:120px;
+    background-image:url(./sun.jpg) ;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -4px 2px 56px #f9c05f;
+    position:absolute;
+    left:45%;
+    top:45%;
+    transform:translate(-50% -50%);
+}
+.mercury{
+    height:20px;
+    width:20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    /* box-shadow: -4px 2px 56px #f9c05f; */
+    background-image: url(./mercury.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left:43%;
+    top:43%;
+    transform:translate(-50% -50%);
+    animation:orbit2 3s linear infinite;
+}
+@keyframes orbit2{
+    from{
+        transform: rotate(0deg)translateX(70px) rotate(0deg); 
+    }
+    to{
+        transform: rotate(360deg)translateX(70px) rotate(-360deg);  
+    }
+}
+.mercury-outline {
+    border-radius:50%;
+    border:1px solid black;
+    position:absolute;
+    top:44%;
+    left:44%;
+    transform:translate(-50% -50%);
+    height:140px;
+    width:140px;
+  }
+
+ .venus{
+    height:50px;
+    width:50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    /* box-shadow: -4px 2px 56px #f9c05f; */
+    background-image: url(./venus.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     left:40%;
+    top:40%;
+    transform:translate(-50% -50%);
+    animation:orbit3 5s linear infinite;
+}
+@keyframes orbit3{
+    from{
+        transform: rotate(0deg)translateX(150px) rotate(0deg); 
+    }
+    to{
+        transform: rotate(360deg)translateX(150px) rotate(-360deg);  
+    }
+} 
+.venus-outline {
+    border-radius:50%;
+    border:1px solid black;
+    position:absolute;
+    top:33%;
+    left:39%;
+    transform:translate(-50% -50%);
+    height:300px;
+    width:300px;
+  } 
+  .earth-outline {
+    border-radius:50%;
+    border:1px solid black;
+    position:absolute;
+    top:20%;
+    left:33%;
+    transform:translate(-50% -50%);
+    height:500px;
+    width:500px;
+  }
+ 
+  .earth{
+    height:60px;
+    width:60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    /* box-shadow: -4px 2px 56px #f9c05f; */
+     left:43%;
+    top:43%;
+    transform:translate(-50% -50%);
+    animation:orbit4 5s linear infinite;
+}
+@keyframes orbit4{
+    from{
+        transform: rotate(0deg)translateX(250px) rotate(0deg); 
+    }
+    to{
+        transform: rotate(360deg)translateX(250px) rotate(-360deg);  
+    }
+}  
+ 
+ 

@@ -1,0 +1,42 @@
+.container{
+    height: 400;
+    width:300;
+    border:2px solid black;
+    background-image: url(./Bird.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left:550px;
+  
+
+   
+}
+body{
+    background-image: url(./nature.jpeg);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h2{
+  
+    font-size: 130px;
+    font-weight: 800;
+    background-image: url(./nature-7602212.jpg);
+   background-size: 100% 100%;
+    background-clip: text;
+    color:transparent;
+}
+h3{
+    font-size: 30px;
+    font-weight: 800;
+    color:Red;
+    padding-left: 130px;
+    padding-top:300px;
+
+}
+p{
+    color:white;
+    text-align: justify;
+    padding:30px;
+}
+

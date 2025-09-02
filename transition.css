@@ -1,0 +1,75 @@
+body{
+    padding:0px;
+    margin:0px;
+    display: flex;
+    gap:200px;
+    flex-wrap: wrap;
+}
+.main{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    background-color: aqua;
+}
+.main:hover{
+    height:500px;
+    cursor: pointer;
+}
+.main1{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    background-color: aqua;
+}
+.main1:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.main2{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: aqua;
+}
+.main2:hover{
+    color:chocolate;
+    cursor: pointer;
+    font-size: 30px;
+}
+.main3{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    background-color: aqua;
+}
+.main3:hover{
+    width:200px;
+    cursor: pointer;
+}
+
+.main4{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay:3s ;
+    background-color: aqua;
+}
+.main4:hover{
+    transform: skew(20deg);
+    cursor: pointer;
+}

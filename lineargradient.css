@@ -1,0 +1,48 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.main{
+    height:100vh;
+    width:100%;
+    display: flex;
+    gap:50px;
+    padding:20px;
+}
+.main1{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    background:radial-gradient(red , orange , yellow);
+
+}
+.main2{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    background:linear-gradient(red , orange , yellow);
+}
+.main3{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    background:linear-gradient(to top, red , orange , yellow);
+}
+.main4{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    background:linear-gradient(to left,  red , orange , yellow);
+}
+.main5{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    background:linear-gradient(to right,  red , orange , yellow);
+}
+.main6{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    background:linear-gradient(to right bottom,  red , orange , yellow);
+}

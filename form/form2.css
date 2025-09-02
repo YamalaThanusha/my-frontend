@@ -1,0 +1,48 @@
+body{
+    background-color:whitesmoke;
+}
+.container{
+    border:2px solid white;
+    height:700px;
+    width:550px;
+    margin-left:500px;
+    background-color: white;
+}
+h1{
+    color:cornflowerblue;
+    text-align: center;
+}
+form{
+   padding-left:20px;
+}
+label{
+    color:brown;
+    font-size: 20px;
+}
+textarea{
+    height:60px;
+    width:500px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.submit{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    color:white;
+    background-color: cornflowerblue;
+    margin-left:230px;
+}
+.input{
+    height:20px;
+    width:500px;
+}
+.gender{
+    color:black;
+    font-size: 17px;
+}
+span{
+    color:brown;
+    font-size: 20px;
+}
+

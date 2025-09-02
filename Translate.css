@@ -1,0 +1,159 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.main{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.Translate{
+   height:200px;
+   width:200px;
+   border:2px solid black;
+   background-color: cadetblue;
+   margin: 20px;
+
+}
+.Translate:hover{
+   cursor: pointer;
+   transform:translate(60px,60px)
+ 
+ }
+.TranslateX{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: crimson;
+    margin: 20px;
+ }
+ .TranslateX:hover{
+    cursor: pointer;
+    transform:translate(60px)
+  
+  }
+ .TranslateY{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: chartreuse;
+    margin: 20px;
+ }
+ .TranslateY:hover{
+    cursor: pointer;
+    transform:translateY(60px)
+  
+  }
+  .rotate{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: blue;
+    margin: 20px;
+ }
+ .rotate:hover{
+  cursor: pointer;
+  transform: rotate(-20deg);
+ }
+ .rotateX{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: black;
+    margin: 20px;
+    color:white;
+ }
+ .rotateX:hover{
+    cursor: pointer;
+    transform: rotate(70deg);
+   }
+ .rotateY{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: blueviolet;
+    margin: 20px;
+ }
+ .rotateY:hover{
+    cursor: pointer;
+    transform: rotate(-70deg);
+   }
+
+   .Skew{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: cadetblue;
+    margin: 20px;
+ 
+ }
+ .Skew:hover{
+    cursor: pointer;
+    transform:skew(20deg,20deg)
+  
+  }
+ .SkewX{
+     height:200px;
+     width:200px;
+     border:2px solid black;
+     background-color: crimson;
+     margin: 20px;
+  }
+  .SkewX:hover{
+     cursor: pointer;
+     transform:skewX(20deg)
+   
+   }
+  .SkewY{
+     height:200px;
+     width:200px;
+     border:2px solid black;
+     background-color: chartreuse;
+     margin: 20px;
+  }
+  .SkewY:hover{
+     cursor: pointer;
+     transform:skewY(20deg)
+  }
+
+
+  
+  .scale{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    background-color: cadetblue;
+    margin: 20px;
+ 
+ }
+ .scale:hover{
+    cursor: pointer;
+    transform:scale(2,2)
+  
+  }
+ .scaleX{
+     height:200px;
+     width:200px;
+     border:2px solid black;
+     background-color: crimson;
+     margin: 20px;
+  }
+  .scaleX:hover{
+    cursor: pointer;
+    transform:scaleX(2)
+  
+  }
+  .scaleY{
+     height:200px;
+     width:200px;
+     border:2px solid black;
+     background-color: chartreuse;
+     margin: 20px;
+  }
+  .scaleY:hover{
+    cursor: pointer;
+    transform:scaleY(2)
+  
+  }

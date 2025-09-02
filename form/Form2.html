@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>FORM</title>
+        <link href="./form2.css" rel="stylesheet">
+    </head>
+    <body><div class="container">
+       <h1>Loan Application Form</h1>
+        <form>
+            <label for="FirstName">FirstName :</label><br>
+            <input class="input"  type="text" id="FirstName" placeholder="Enter your first name" maxlength="20" minlength="15" required><br><br>
+
+            <label for="LastName">LastName :</label><br>
+            <input class="input" type="text" id="LastName" placeholder="Enter your last name" maxlength="20" minlength="15" required><br><br>
+
+            <label for="Email">Email :</label><br>
+            <input class="input" type="email" id="Email" placeholder="Enter your email" maxlength="20" minlength="15" required><br><br> 
+
+            <label for="Phone No">Phone Number :</label><br>
+            <input  class="input"type="Number" id="Phone No" placeholder="Enter your phone number" maxlength="10" required><br><br>  
+            <label for="">Loan Type :</label><br>
+            <select class="input"><br>
+                <option>Select loan type</option>
+                <option>Home Loan</option>
+                <option>Personal Loan</option>
+                <option>Education Loan</option>
+                <option>Business Loan</option>
+                <option>Car Loan</option>
+            </select><br><br>  
+            <label for="Amount">Loan Amount :</label><br>
+            <input class="input" type="Number" id="Amount" placeholder="Enter your amount" required><br><br>
+            <label for="PAN number">PAN Number :</label><br>
+            <input class="input" type="text" id="PAN number" placeholder="Enter your pan number" maxlength="16" minlength="15" required><br><br>
+            <span> Gender: </span>
+            <label class="gender" for="Female" >Female</label>
+            <input type="radio" name="gender">
+            <label class="gender" for="Male">Male</label>
+            <input type="radio" name="gender">
+            <label class="gender" for="Other">Other</label>
+            <input type="radio" name="gender"><br><br>
+            <span>Description<span>
+            <textarea rows="10" cols="30" placeholder="Description" ></textarea>
+            <br><br>
+            <label for="">Accept Terms and conditions</label>
+            <input type="checkbox"><br><br>
+            <input  class="submit"type="Submit">
+        </form></div>
+    </body>
+</html>

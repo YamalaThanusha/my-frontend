@@ -1,0 +1,48 @@
+p{
+    border:2px solid black;
+    display:inline;
+    border-radius: 5px;
+    padding: 10px;
+    color:blue;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+p:hover{
+    border:5px double orangered;
+    color:red;
+    background-color: blueviolet;
+    font-size: 30px;
+    
+}
+.container{
+    height:400px;
+    width:250px;
+    border:2px solid black;
+    margin:30px;
+    border-radius: 10px;
+    padding:20px;
+    background-color: blueviolet;
+}
+.container:hover{
+    border: 5px double blue;
+    background-color:crimson;
+    color:white;
+    box-shadow:brown 7px 7px 7px ;
+    font-size: 30px;
+   
+}
+.ptag{
+    color:chartreuse;
+    background-color: cornflowerblue;
+    border:3px dotted black;
+}
+.ptag:hover{
+    color:gold;
+    background-color: lightslategray;
+    border:2px solid red;
+    position:relative;
+    top:60px;
+    left:40px;
+}
